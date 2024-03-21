@@ -1,0 +1,33 @@
+
+.table1{
+    margin: auto;
+    font-family: sans-serif;
+    color: #000000;
+    border-collapse: collapse;
+    padding-bottom: 40px;
+} 
+
+.table1, th, td{
+    border: 2px solid #8b9091;
+    padding: 6px 12px;
+}
+
+
+.Line1 {
+    background-color: steelblue;
+}
+
+
+.box2{
+    padding-top: 40px;
+    margin: auto;
+    border-color: #8b9091;
+    border: 2px;
+
+}
+
+.table2 {
+    margin: auto;
+    border-collapse: collapse ;
+
+}

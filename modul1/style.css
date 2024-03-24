@@ -2,7 +2,6 @@
 .table1{
     margin: auto;
     font-family: sans-serif;
-    color: #000000;
     border-collapse: collapse;
     padding-bottom: 40px;
 } 
@@ -12,22 +11,37 @@
     padding: 6px 12px;
 }
 
-
-.Line1 {
-    background-color: steelblue;
+.table1 th:first-child {
+    background-color: rgb(57, 123, 184);
+    color: antiquewhite;
+    text-align: center;
 }
 
+.table1 tr:nth-child(odd) {
+    background-color: rgb(156, 153, 153);
+    color: rgb(42, 40, 43);
+}
 
-.box2{
+/* .table1 tr :nth-child(even) {
+    
+} */
+
+.box {
     padding-top: 40px;
-    margin: auto;
-    border-color: #8b9091;
-    border: 2px;
-
+    padding-left: 1px;
 }
-
 .table2 {
-    margin: auto;
+    margin-left: 21%;
     border-collapse: collapse ;
+    background-color: gray;
 
 }
+
+.table3 {
+    background-color: gold;
+}
+
+.table4 {
+    background-color: lightseagreen;
+}
+
